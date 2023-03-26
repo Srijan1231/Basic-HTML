@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Basic</title>
+  </head>
+  <body>
+    <a href="./contact.html"><button>Contact US</button></a>
+    <br />
+    <a href="./about.html" target=><button>About me</button> </a>
+    <!--commenting code shortcut key is cmd+/-->
+    <!-- shortcut to copy is shift+opt+down -->
+    <!-- two types of element block level, inline elements -->
+    <!-- below written elements are block level -->
+    <h1>This is heading(h1)</h1>
+    <h2>This is heading(h2)</h2>
+    <h3>This is heading(h3)</h3>
+    <h4>This is heading(h4)</h4>
+    <h5>This is heading(h5)</h5>
+    <h6>This is heading(h6)</h6>
+
+    <p>Lorem ipsum dolor sit amet.</p>
+    <div>This is first div</div>
+    <div>This is second div</div>
+    <div>This is third div</div>
+    <!-- we cannot use <div> inside <p> -->
+    <!-- below written is the examples of inline elements -->
+    <span>First span</span>
+    <span>Second span</span>
+    <span>Third span</span>
+    <!-- just for developer point we should wrap the documents to make ourself easy with opt+z -->
+
+    <!-- nested elements -->
+    <div>
+      <h2>About me</h2>
+      <hr />
+    </div>
+
+    <!-- examples of sementic elements -->
+    <section>
+      <!-- this is my articlke summary section -->
+
+      <article>
+        <h4>This is the first article</h4>
+
+        <hr />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+        deleniti nostrum, alias sequi enim in dolorum facere perferendis
+        corporis, maiores veritatis dignissimos! Tenetur doloribus minima animi,
+        culpa praesentium officiis voluptatem!
+        <button>Read more -></button>
+      </article>
+      <article>
+        <h4>This is the first article</h4>
+
+        <hr />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+        deleniti nostrum, alias sequi enim in dolorum facere perferendis
+        corporis, maiores veritatis dignissimos! Tenetur doloribus minima animi,
+        culpa praesentium officiis voluptatem!
+        <button>Read more -></button>
+      </article>
+    </section>
+
+    <!-- data management to manage data we use list and table-->
+
+    <!-- list -->
+
+    <!-- two types of list -->
+
+    <!-- unordered list and ordered list -->
+
+    <h4>Learning List:</h4>
+    <hr />
+    <ul>
+      <!-- types of ul: disc, circle, square -->
+      <li>HTML</li>
+      <li>CSS</li>
+      <ul>
+        <li>Basic</li>
+        <li>flexbox</li>
+        <li>grid system</li>
+      </ul>
+      <li>Javascript</li>
+      <li>React</li>
+    </ul>
+    <hr />
+
+    <h4>Place to vist:</h4>
+    <hr />
+    <ol type="I">
+      <!-- types of ol: 1,a,A,i,I -->
+      <li>Singapore</li>
+      <li>Japan</li>
+      <ol type="a">
+        <li>Fukuyama</li>
+        <li>Tokyo</li>
+      </ol>
+      <li>Germany</li>
+      <li>China</li>
+    </ol>
+    <hr />
+
+    <!-- table -->
+    <table border="1">
+      <thead>
+        <th>#</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Sam</td>
+          <td>Smith</td>
+          <td><a href="mailto:sam@smith.com">sam@smith.com</a></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Sam</td>
+          <td>Smith</td>
+          <td>sam@smith.com</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td colspan="2">Smith</td>
+          <td>sam@smith.com</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+
+    <footer>&copy;Copyright all reserved! Made by me with💙</footer>
+  </body>
+</html>
